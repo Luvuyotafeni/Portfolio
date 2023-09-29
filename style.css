@@ -303,6 +303,11 @@ article .icon {
 .contact-info-container p {
   font-size: larger;
 }
+#contact{
+  *{
+    margin: 2rem;
+  }
+}
 form{
   width: 100px;
   margin-left: 25rem;
@@ -310,6 +315,8 @@ form{
 form input{
   width: 100px;
   font-size: 18px;
+  margin: 2rem;
+  padding: 6px;
 }
 /* FOOTER SECTION */
 footer {
