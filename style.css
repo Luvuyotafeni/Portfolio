@@ -316,7 +316,7 @@ form input{
 }
 form textarea{
   margin-top: 2rem;
-  font-size: 10%;
+  font-size: 100%;
 }
 /* FOOTER SECTION */
 footer {
