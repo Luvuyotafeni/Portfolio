@@ -310,13 +310,13 @@ form{
 }
 form input{
   width: 100px;
-  font-size: 80%;
+  font-size: 18px;
   margin-top: 2rem;
   padding: 6px;
 }
 form textarea{
   margin-top: 2rem;
-  font-size: 120%;
+  font-size: 100%;
 }
 /* FOOTER SECTION */
 footer {
