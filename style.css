@@ -303,7 +303,9 @@ article .icon {
 .contact-info-container p {
   font-size: larger;
 }
-
+form{
+  width: 100px;
+}
 /* FOOTER SECTION */
 footer {
   height: 5vh;
