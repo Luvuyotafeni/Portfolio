@@ -314,6 +314,10 @@ form input{
   margin-top: 2rem;
   padding: 6px;
 }
+form textarea{
+  margin-top: 2rem;
+  font-size: 10%;
+}
 /* FOOTER SECTION */
 footer {
   height: 5vh;
