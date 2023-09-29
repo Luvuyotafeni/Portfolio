@@ -329,7 +329,7 @@ footer {
 footer p {
   text-align: center;
 }
-        /* Style the button */
+/*scroll button*/
         #scrollButton {
             display: none;
             position: fixed;
