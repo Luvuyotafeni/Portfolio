@@ -306,6 +306,10 @@ article .icon {
 form{
   width: 500px;
 }
+form input{
+  width: 100px;
+  font-size: 18px;
+}
 /* FOOTER SECTION */
 footer {
   height: 5vh;
