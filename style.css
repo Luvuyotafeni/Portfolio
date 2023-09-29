@@ -204,11 +204,6 @@ section {
 .about-pic {
   border-radius: 2rem;
 }
-.arrow {
-  position: absolute;
-  right: -5rem;
-  bottom: 2.5rem;
-}
 .details-container {
   padding: 1.5rem;
   flex: 1;
@@ -307,7 +302,9 @@ article .icon {
 .contact-info-container p {
   font-size: larger;
 }
-
+form{
+  font: 100;
+}
 /* FOOTER SECTION */
 footer {
   height: 5vh;
