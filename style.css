@@ -304,7 +304,8 @@ article .icon {
   font-size: larger;
 }
 form{
-  width: 500px;
+  width: 100px;
+  align-items: center;
 }
 form input{
   width: 100px;
