@@ -304,7 +304,8 @@ article .icon {
   font-size: larger;
 }
 input{
-  size: 2rem;
+  font-size: large;
+  size: 7rem;
 }
 
 /* FOOTER SECTION */
