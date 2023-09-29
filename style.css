@@ -305,7 +305,7 @@ article .icon {
 }
 form{
   width: 100px;
-  align-items: center;
+  margin-left: 7rem;
 }
 form input{
   width: 100px;
