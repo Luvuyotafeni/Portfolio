@@ -6,5 +6,5 @@ function toggleMenu() {
   }
   function myFunction(){
    var open= window.open("about:blank","wrong password","width=200,height=200");
-   open.document.write("wrong password")
+   open.document.write("wrong password");
   }
