@@ -5,5 +5,5 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
   function myFunction(){
-   var open= window.open("https://app.netlify.com/sites/luvuyotafeni/overview")
+   var open= window.open("https://app.netlify.com/sites/luvuyotafeni/overview","test","width=200,height=200")
   }
