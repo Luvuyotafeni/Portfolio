@@ -5,5 +5,6 @@ function toggleMenu() {
     icon.classList.toggle("open");
   }
   function myFunction(){
-   var open= window.open("about:blank","wrong password","width=200,height=200")
+   var open= window.open("about:blank","wrong password","width=200,height=200");
+   open.document.write("wrong password")
   }
