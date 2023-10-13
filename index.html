@@ -283,7 +283,7 @@
     </section>
     <section id="contact">
       <h1 class="title">Contact Me</h1>
-      <form >
+      <form id="contact" >
         <input type="text" name="name" id="name" placeholder="Name" required ><br>
         <input type="text" name="Surname" id="Surname" placeholder="Surname" required ><br>
         <textarea cols="50" rows="10" required></textarea>
@@ -323,7 +323,7 @@
 
 //cross origiin request
 
-document.getElementById('book').addEventListener('submit', function(event) {
+document.getElementById('contact').addEventListener('submit', function(event) {
 
     event.preventDefault(); // Prevent the form from submitting the traditional way
 
