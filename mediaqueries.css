@@ -47,7 +47,7 @@
   
   @media screen and (max-width: 600px) {
     #contact,
-    footer,.con {
+    footer,form {
       height: 5vh;
       position: fixed;
       align-items: baseline;
@@ -69,11 +69,11 @@
     .btn-container {
       flex-wrap: wrap;
     }
-    .contact-info-container, .con {
+    .contact-info-container {
       margin: 0;
     }
     .contact-info-container p,
-    .nav-links li a, .con {
+    .nav-links li a, form {
       font-size: 1rem;
     }
     .experience-sub-title {
@@ -100,5 +100,8 @@
     }
     .text-container {
       text-align: justify;
+    }
+    form{
+      margin: 0rem
     }
   }
