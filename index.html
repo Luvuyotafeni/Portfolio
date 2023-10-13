@@ -320,6 +320,49 @@
           document.body.scrollTop = 0; // For Safari
           document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
       }
+
+//cross origiin request
+
+document.getElementById('book').addEventListener('submit', function(event) {
+
+    event.preventDefault(); // Prevent the form from submitting the traditional way
+
+    const formData = new FormData(this);
+
+    fetch('https://formspree.io/f/moqopyyb', {
+
+        method: 'POST',
+
+        headers: {
+
+            'Accept': 'application/json'
+
+        },
+
+        body: formData
+
+    })
+
+    .then(response => response.json())
+
+    .then(data => {
+
+        console.log('Success:', data);
+
+        alert('Booking submitted successfully!');
+
+    })
+
+    .catch(error => {
+
+        console.error('Error:', error);
+
+        alert('There was an error in booking your service. Please try again later.');
+
+    });
+
+});
+
   </script>
     <footer>
       <p>Copyright &#169; 2023 Luvuyo Tafeni. All Rights Reserved.</p>
