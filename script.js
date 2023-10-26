@@ -1,6 +1,4 @@
-
-
-   // Get the button
+// Get the button
    var scrollButton = document.getElementById("scrollButton");
 
    // When the user scrolls down 20px from the top of the document, show the button
