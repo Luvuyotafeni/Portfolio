@@ -327,27 +327,50 @@ form textarea {
   margin-top: 1rem;
 }
 
+/* Media query for small screens */
+@media screen and (max-width: 480px) {
+  #contact {
+    padding: 1rem;
+  }
+
+  .contact-info-upper-container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  form input,
+  form textarea {
+    width: calc(100% - 12px);
+  }
+}
+
 /* Media query for tablets */
-@media screen and (min-width: 768px) {
-  form input, form textarea {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  form input,
+  form textarea {
     width: calc(100% - 40px);
   }
 }
 
 /* Media query for desktops */
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 769px) and (max-width: 1024px) {
   #contact {
-    padding: 4rem;
+    padding: 3rem;
   }
-  
+
   .contact-info-upper-container {
     max-width: 60rem;
   }
-  
+
   form {
     max-width: 40rem;
   }
 }
+
 /* FOOTER SECTION */
 footer {
   height: 5vh;
