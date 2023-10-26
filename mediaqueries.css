@@ -50,104 +50,46 @@
     }
   }
   
-  @media screen and (max-width: 600px) {
-    #contact,
-    footer,form {
-      height: 5vh;
-      position: fixed;
-      align-items: baseline;
-
-    }
-    #profile {
-      height: 83vh;
-      margin-bottom: 0;
-    }
-    article {
-      font-size: 1rem;
-    }
-    footer nav {
-      height: fit-content;
-      margin-bottom: 2rem;
-    }
-    .about-containers,
-    .contact-info-upper-container,
-    .btn-container {
-      flex-wrap: wrap;
-    }
-    .contact-info-container {
-      margin: 0;
-    }
-    .contact-info-container p,
-    .nav-links li a, form {
-      font-size: 1rem;
-    }
-    .experience-sub-title {
-      font-size: 1.25rem;
-    }
-    .logo {
-      font-size: 1.5rem;
-    }
-    .nav-links {
-      flex-direction: column;
-      gap: 0.5rem;
-      text-align: center;
-    }
-    .section__pic-container {
-      width: auto;
-      height: 46vw;
-      justify-content: center;
-    }
-    .section__text__p2 {
-      font-size: 1.25rem;
-    }
-    .title {
-      font-size: 2rem;
-    }
-    .text-container {
-      text-align: justify;
-    }
-    input{
-      margin: 0rem
-    }
+  /* Media query for small screens */
+@media screen and (max-width: 480px) {
+  #contact {
+    padding: 1rem;
   }
-  @media screen and (max-width: 767px) {
-    #contact {
-        /* Styles for screens up to 767px wide (e.g., smartphones) */
-        /* You can modify the styles to fit the smaller screen size */
-        padding: 20px;
-    }
 
-    #name,
-    #Surname,
-    #MESSAGE {
-        width: 100%;
-        /* Make input fields and textarea take up full width */
-        margin-bottom: 10px;
-        /* Add some spacing between fields */
-    }
+  .contact-info-upper-container {
+    max-width: 100%;
+    border-radius: 0;
+  }
 
-    .contact-info-container {
-        text-align: center;
-        margin-bottom: 15px;
-        /* Add spacing between contact info items */
-    }
+  form {
+    max-width: 100%;
+  }
+
+  form input,
+  form textarea {
+    width: calc(100% - 12px);
+  }
 }
 
-/* Media query for even smaller screens (e.g., smaller smartphones) */
-@media screen and (max-width: 479px) {
-    #contact {
-        /* Further styles for screens up to 479px wide */
-        /* You can modify the styles to fit the smaller screen size */
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 24px;
-        /* Adjust the font size for smaller screens */
-    }
-
-    .contact-info-container {
-        font-size: 14px;
-        /* Adjust font size for smaller screens */
-    }
+/* Media query for tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  form input,
+  form textarea {
+    width: calc(100% - 40px);
   }
+}
+
+/* Media query for desktops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #contact {
+    padding: 3rem;
+  }
+
+  .contact-info-upper-container {
+    max-width: 60rem;
+  }
+
+  form {
+    max-width: 40rem;
+  }
+}
