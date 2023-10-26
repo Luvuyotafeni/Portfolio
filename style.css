@@ -319,6 +319,7 @@ form input {
   font-size: 18px;
   margin-top: 1rem;
   padding: 6px;
+  border-radius: 80%;
 }
 
 form textarea {
