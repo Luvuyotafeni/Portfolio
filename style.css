@@ -246,7 +246,8 @@ a:hover {
   flex-direction: row;
   gap: 2.5rem;
   justify-content: space-around;
-  padding: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 article {
   display: flex;
