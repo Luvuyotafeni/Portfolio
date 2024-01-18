@@ -100,27 +100,19 @@ a:hover {
 }
 
 /* SECTIONS */
-body, html {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  height: 100%;
-  overflow: hidden;
-}
 section {
-  padding: 20px;
-  height: 96vh;
+  padding-top: 4vh;
+  height: 100%;
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
-  background-color: #f4f4f4;       
 }
 .section-container {
   display: flex;
 }
 section.full-height {
   height: 100vh;
-  overflow-y: auto; /* Enable scrolling within sections if needed */
+ /*overflow-y: auto; /* Enable scrolling within sections if needed */
 }
 /* PROFILE SECTION */
 #profile {
