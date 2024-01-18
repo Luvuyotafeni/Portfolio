@@ -238,6 +238,7 @@ a:hover {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  margin: 50px;
 }
 .article-container {
   display: flex;
