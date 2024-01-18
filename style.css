@@ -141,6 +141,7 @@ a:hover {
 .title {
   font-size: 3rem;
   text-align: center;
+  margin-top: 2rem;
 }
 /* ICONS */
 .icon {
@@ -331,12 +332,7 @@ form textarea {
   font-size: 120%;
   margin-top: 1rem;
 }
-.contact-sub-title {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-top: 2rem;
-}
+
 /* FOOTER SECTION */
 footer {
   height: 5vh;
