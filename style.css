@@ -240,7 +240,6 @@ a:hover {
   flex-direction: column;
   margin: 50px;
 
-  
 }
 .article-container {
   display: flex;
@@ -332,7 +331,12 @@ form textarea {
   font-size: 120%;
   margin-top: 1rem;
 }
-
+.contact-sub-title {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-top: 2rem;
+}
 /* FOOTER SECTION */
 footer {
   height: 5vh;
