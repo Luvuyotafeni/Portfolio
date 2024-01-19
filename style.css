@@ -101,7 +101,7 @@ a:hover {
 
 /* SECTIONS */
 .section {
-  padding-top: 4vh;
+  padding-top: 1vh;
   height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
@@ -288,7 +288,7 @@ article .icon {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  padding: 2rem;
+  padding: 78px;
 }
 
 .contact-info-upper-container {
