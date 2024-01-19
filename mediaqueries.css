@@ -93,3 +93,14 @@
     max-width: 40rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .menu-links {
+    width: 100%;
+    text-align: center;
+  }
+
+  .menu-links li {
+    display: block;
+  }
+}
