@@ -15,3 +15,8 @@
        document.body.scrollTop = 0; // For Safari
        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
    }
+
+   function toggleMenu() {
+    var menuLinks = document.querySelector('.menu-links');
+    menuLinks.classList.toggle('open');
+  }
