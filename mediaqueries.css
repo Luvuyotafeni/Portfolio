@@ -98,8 +98,11 @@
   #hamburger-nav,
   #desktop-nav {
     width: 100%;
+    
   }
-
+  #hamburger-nav{
+    margin-left: 10rem;
+  }
   /* Center the profile section */
   #profile {
     text-align: center;
