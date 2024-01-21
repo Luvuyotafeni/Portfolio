@@ -179,6 +179,9 @@
     border-radius: 0;
     text-align: center;
   }
+  .con{
+    margin: auto;
+  }
 
   /* Center the scroll-to-top button */
   #scrollButton {
