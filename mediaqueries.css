@@ -166,7 +166,7 @@
 
   form {
     max-width: 300px; /* Set a max-width for the form */
-    margin: 0 auto; /* Center the form horizontally */
+    margin-left: 2rem ; /* Center the form horizontally */
   }
 
   form input,
