@@ -171,3 +171,75 @@
     max-width: 40rem;
   }
 }
+
+
+/* Media query for small screens */
+@media screen and (max-width: 300px) {
+  /* Adjustments for smaller screens */
+  #profile {
+    height: auto;
+  }
+  
+  .section__pic-container img {
+    width: 100%; /* Make the profile picture responsive */
+    height: auto;
+  }
+
+  .about-containers {
+    flex-direction: column;
+  }
+
+  .about-details-container {
+    padding: 20px;
+  }
+
+  .details-container {
+    margin-bottom: 20px;
+  }
+
+  #contact {
+    padding: 1rem;
+  }
+
+  .contact-info-upper-container {
+    max-width: 100%;
+    border-radius: 0;
+  }
+
+  form {
+    max-width: 100%;
+  }
+
+  form input,
+  form textarea {
+    width: calc(100% - 12px);
+  }
+}
+
+/* Additional styles for better visibility in the hamburger menu */
+.menu-links a {
+  color: white; /* Adjust text color for better visibility */
+}
+
+/* Media query for tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  form input,
+  form textarea {
+    width: calc(100% - 40px);
+  }
+}
+
+/* Media query for desktops */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  #contact {
+    padding: 3rem;
+  }
+
+  .contact-info-upper-container {
+    max-width: 60rem;
+  }
+
+  form {
+    max-width: 40rem;
+  }
+}
