@@ -53,51 +53,73 @@ a:hover {
 }
 /* HAMBURGER MENU */
 #hamburger-nav {
-  display: none;
+  display: flex;
+  justify-content: space-between; /* Add this line to push the logo and menu to the edges */
+  align-items: center;
+  padding: 1rem;
+  background-color: #333; /* Adjust the background color as needed */
 }
+
+.logo {
+  font-size: 1.5rem;
+  color: white; /* Adjust the logo text color as needed */
+}
+
 .hamburger-menu {
-  position: relative;
-  display: inline-block;
+  display: flex;
+  align-items: center;
 }
+
+/* Add the following styles to position the hamburger icon to the right */
 .hamburger-icon {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 24px;
-  width: 30px;
-  cursor: pointer;
+  height: 20px;
+  width: 25px;
 }
+
 .hamburger-icon span {
+  background-color: white; /* Adjust the color of the hamburger icon bars as needed */
+  height: 3px;
   width: 100%;
-  height: 2px;
-  background-color: black;
-  transition: all 0.3 ease-in-out;
+  display: block;
+  transition: 0.3s ease;
 }
+
 .menu-links {
+  display: none;
+  flex-direction: column;
   position: absolute;
-  top: 100%;
-  right: 0;
-  background-color: white;
-  width: fit-content;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-  box-sizing: border-box;
+  top: 70px; /* Adjust the top position as needed */
+  right: 0; /* Position the menu to the right */
+  background-color: #333; /* Adjust the background color as needed */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .menu-links ul {
+  list-style: none;
   padding: 0;
   margin: 0;
-  list-style: none;
 }
 
 .menu-links li {
-  padding: 10px;
+  padding: 15px;
+  text-align: center;
 }
 
-.menu-links.open {
-  max-height: 300px;
+.menu-links a {
+  text-decoration: none;
+  color: white; /* Adjust the text color as needed */
 }
+
+/* Add the following style to display the menu links when the menu is toggled */
+.menu-links.active {
+  display: flex;
+}
+
 
 /* SECTIONS */
 .section {
