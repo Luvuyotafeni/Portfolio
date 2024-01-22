@@ -106,7 +106,7 @@ a:hover {
   height: 100vh;
   margin: 0 10rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  height: fit-content;
 }
 .section-container {
   display: flex;
