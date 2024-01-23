@@ -300,7 +300,8 @@ article .icon {
   background: #fafafa;
   margin: 2rem auto;
   padding: 0.5rem;
-  max-width: 40rem;
+  max-width: 20rem;
+  font-size: xx-small;
 }
 
 .contact-info-container {
